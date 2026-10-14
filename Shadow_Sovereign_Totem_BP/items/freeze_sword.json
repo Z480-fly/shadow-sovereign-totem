@@ -1,0 +1,33 @@
+{
+  "format_version": "1.26.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "shadow_totem:freeze_sword",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": "shadow_totem:freeze_sword_icon",
+      "minecraft:display_name": {
+        "value": "item.shadow_totem:freeze_sword"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:allow_off_hand": {
+        "value": true
+      },
+      "minecraft:glint": {
+        "value": true
+      },
+      "minecraft:hand_equipped": {
+        "value": true
+      },
+      "minecraft:damage": {
+        "value": 8
+      },
+      "minecraft:durability": {
+        "max_durability": 3000
+      }
+    }
+  }
+}

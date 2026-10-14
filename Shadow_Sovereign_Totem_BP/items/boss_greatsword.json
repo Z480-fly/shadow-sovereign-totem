@@ -1,0 +1,33 @@
+{
+  "format_version": "1.26.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "shadow_totem:boss_greatsword",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": "shadow_totem:boss_greatsword_icon",
+      "minecraft:display_name": {
+        "value": "item.shadow_totem:boss_greatsword"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:allow_off_hand": {
+        "value": true
+      },
+      "minecraft:glint": {
+        "value": true
+      },
+      "minecraft:hand_equipped": {
+        "value": true
+      },
+      "minecraft:damage": {
+        "value": 26
+      },
+      "minecraft:durability": {
+        "max_durability": 3000
+      }
+    }
+  }
+}
