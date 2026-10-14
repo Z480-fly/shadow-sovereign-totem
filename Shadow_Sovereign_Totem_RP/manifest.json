@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Shadow Sovereign Totem (RP)",
+    "description": "Vanilla-style totem textures and the Shadow Soldier.",
+    "uuid": "c64216ef-7d50-454f-ae14-ef32d4a384ff",
+    "version": [2, 3, 1],
+    "min_engine_version": [1, 26, 10]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "444c2ff3-d9ac-4f14-b25c-fa4fa895e9b2",
+      "version": [2, 3, 1]
+    }
+  ]
+}

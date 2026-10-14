@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Shadow Sovereign Totem (BP)",
+    "description": "Black totem that awakens into a red totem and raises shadow soldiers.",
+    "uuid": "205a0156-a516-4131-8237-392973a6c474",
+    "version": [2, 3, 1],
+    "min_engine_version": [1, 26, 10]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "37256ba5-43df-4ae2-ae26-93421bd90366",
+      "version": [2, 3, 1]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "374cb9e7-83a0-4d6e-9f0b-5de4046288ff",
+      "version": [2, 3, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c64216ef-7d50-454f-ae14-ef32d4a384ff",
+      "version": [2, 3, 1]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}
