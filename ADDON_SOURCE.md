@@ -1,22 +1,28 @@
-# Real Addon Source (from uploaded .mcaddon)
+# Real Addon Source
 
-This repository now contains the **actual** Shadow Sovereign Totem v2.3.1 packs extracted from the uploaded `Shadow_Sovereign_Totem.mcaddon`.
+Repo: https://github.com/Z480-fly/shadow-sovereign-totem
 
-## Folders
-| Folder | Contents |
-|--------|----------|
-| `Shadow_Sovereign_Totem_BP/` | Behavior pack – Script API (`scripts/main.js`), items, entities, recipe |
-| `Shadow_Sovereign_Totem_RP/` | Resource pack – models, client entity defs, lang, item_texture |
+## What is committed in git
+- Design docs, CHANGELOG, MAP_IDEAS, PACKAGING
+- Real BP + RP manifests (v2.3.1, min engine 1.26.10)
+- All BP item JSON definitions + crafting recipe
+- RP `en_US.lang`, `languages.json`, `item_texture.json`
 
-## Key facts
-- **Namespace**: `shadow_totem:`
-- **Script**: single file `Shadow_Sovereign_Totem_BP/scripts/main.js` (~179 KB)
-- **Min engine**: 1.26.10
-- **APIs**: `@minecraft/server` 2.10.0, `@minecraft/server-ui` 2.0.0
-- **Craft**: 8 Totems of Undying + 1 Beacon → black totem
+## What you still need from the original .mcaddon (local zip)
+These are either large or binary — keep them from your uploaded pack:
 
-## What is / is not in git yet
-- **In repo**: manifests, recipe, item JSONs (being added), entity JSONs, client entity defs, geo models, lang, item_texture.json, and the full `main.js`.
-- **Binary assets** (PNG textures, pack icons): present in the original `.mcaddon`. Copy them from your local extract into the RP/BP `textures/` and root if you need a complete offline build, or upload the `.mcaddon` as a GitHub Release asset.
+1. **`Shadow_Sovereign_Totem_BP/scripts/main.js`** (~179 KB) — the entire Script API implementation
+2. **`Shadow_Sovereign_Totem_BP/entities/*.json`** (22 entity behavior defs)
+3. **`Shadow_Sovereign_Totem_RP/entity/*.json`** (client entity files)
+4. **`Shadow_Sovereign_Totem_RP/models/entity/*.geo.json`** (geometry)
+5. **PNG textures** under `textures/items/`, `textures/entity/`, `textures/models/armor/elytra.png`
+6. Pack icons
 
-The earlier `behavior_pack/` / `resource_pack/` folders were a design skeleton; prefer the real `Shadow_Sovereign_Totem_*` folders for development.
+**Recommended:** Upload `Shadow_Sovereign_Totem.mcaddon` as a GitHub Release asset on this repo so free buff (and anyone) can download the complete pack in one click.
+
+## Namespace
+`shadow_totem:` (items, entities, powers)
+
+## APIs
+- `@minecraft/server` 2.10.0
+- `@minecraft/server-ui` 2.0.0
