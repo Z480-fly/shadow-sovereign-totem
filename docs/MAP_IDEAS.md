@@ -81,3 +81,8 @@ Goal: a Minecraft Bedrock world that **showcases and is built around** the addon
 - Recommended render / trailer locations (Gate Plaza at dusk, throne room with full army, Astral Projection over the castle, etc.).
 
 These notes are intentionally high-level so you (or free buff) can expand them into actual terrain, structures, and loot tables.
+
+## Build Specs
+Concrete, block-level build orders derived from these ideas:
+- [`BUILD_PHASE1.md`](BUILD_PHASE1.md) – Awakening Spawn hub + Blackstone Road + Gate Plaza + Realm obelisk (with acceptance checklist).
+- [`BUILD_PHASE2.md`](BUILD_PHASE2.md) – Extraction Grounds: hunter's camp, dark wood, rift hollows, brute pens, extraction pit, salvage outpost (levels 5→15).
